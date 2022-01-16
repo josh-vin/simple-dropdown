@@ -1,0 +1,42 @@
+.App {
+  text-align: center;
+  /* font-family: 'Comic Sans MS'; */
+}
+
+.App-logo {
+  pointer-events: none;
+}
+
+.normal-text {
+  align-items: center;
+  width: 80%;
+  margin: auto;
+  top: 20px;
+}
+
+@media screen and (min-width: 0px) {
+  .normal-text {
+    width: 225px;
+  }
+}
+
+@media screen and (min-width: 400px) {
+  .normal-text {
+    width: 60%;
+  }
+}
+
+@media screen and (min-width: 800px) {
+  .normal-text {
+    width: 500px;
+  }
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
