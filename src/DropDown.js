@@ -14,7 +14,7 @@ class DropDown extends Component {
 
   createComboBox() {
     let items = [];
-    for (let i = 5; i <= 30; i++) {
+    for (let i = 5; i <= 40; i++) {
       items.push({ value: i, label: i});
     }
     items.push({value: 60, label: 60});

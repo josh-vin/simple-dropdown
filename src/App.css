@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  padding-bottom: 2%;
   /* font-family: 'Comic Sans MS'; */
 }
 
@@ -12,6 +13,10 @@
   width: 80%;
   margin: auto;
   top: 20px;
+}
+
+tr:nth-child(even) {
+  background-color: lightgray;
 }
 
 @media screen and (min-width: 0px) {
